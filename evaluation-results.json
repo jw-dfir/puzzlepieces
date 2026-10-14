@@ -1,0 +1,128 @@
+{
+  "settings": {
+    "confidence": 0.95,
+    "visual_prior": 0.3,
+    "veto": 4.0,
+    "candidates": 16,
+    "sequence_window": 32,
+    "include_background": false,
+    "fill_backgrounds": true,
+    "use_sequence": true,
+    "max_rounds": 40,
+    "calibration_samples": 3000,
+    "workers": 4
+  },
+  "results": [
+    {
+      "adjacencies": 476,
+      "correct": 464,
+      "false_joins": 12,
+      "precision": 0.9748,
+      "true_adjacencies": 719,
+      "recall": 0.6453,
+      "regions": 33,
+      "largest_region": 102,
+      "coherent_regions_ge4": 18,
+      "tiles_in_coherent_regions": 222,
+      "tiles_placed": 366,
+      "records": 370,
+      "seed": 7,
+      "drop": 0.0,
+      "seconds": 2.95,
+      "seam_models": [
+        {
+          "calibration": "1101 internal seams in 367 records of this evidence, axis horizontal",
+          "positives": 1101,
+          "negatives": 817,
+          "tpr_llr_ge_2": 0.4505,
+          "fpr_llr_ge_2": 0.0294,
+          "tpr_llr_ge_0": 0.9391,
+          "fpr_llr_ge_0": 0.3048
+        },
+        {
+          "calibration": "1101 internal seams in 367 records of this evidence, axis vertical",
+          "positives": 1101,
+          "negatives": 898,
+          "tpr_llr_ge_2": 0.4233,
+          "fpr_llr_ge_2": 0.0423,
+          "tpr_llr_ge_0": 0.9737,
+          "fpr_llr_ge_0": 0.4109
+        }
+      ]
+    },
+    {
+      "adjacencies": 444,
+      "correct": 436,
+      "false_joins": 8,
+      "precision": 0.982,
+      "true_adjacencies": 737,
+      "recall": 0.5916,
+      "regions": 15,
+      "largest_region": 141,
+      "coherent_regions_ge4": 9,
+      "tiles_in_coherent_regions": 202,
+      "tiles_placed": 291,
+      "records": 373,
+      "seed": 11,
+      "drop": 0.0,
+      "seconds": 5.23,
+      "seam_models": [
+        {
+          "calibration": "1116 internal seams in 372 records of this evidence, axis horizontal",
+          "positives": 1116,
+          "negatives": 853,
+          "tpr_llr_ge_2": 0.4211,
+          "fpr_llr_ge_2": 0.0363,
+          "tpr_llr_ge_0": 0.9355,
+          "fpr_llr_ge_0": 0.3529
+        },
+        {
+          "calibration": "1116 internal seams in 372 records of this evidence, axis vertical",
+          "positives": 1116,
+          "negatives": 916,
+          "tpr_llr_ge_2": 0.4435,
+          "fpr_llr_ge_2": 0.0338,
+          "tpr_llr_ge_0": 0.9794,
+          "fpr_llr_ge_0": 0.3406
+        }
+      ]
+    },
+    {
+      "adjacencies": 476,
+      "correct": 461,
+      "false_joins": 15,
+      "precision": 0.9685,
+      "true_adjacencies": 741,
+      "recall": 0.6221,
+      "regions": 38,
+      "largest_region": 123,
+      "coherent_regions_ge4": 16,
+      "tiles_in_coherent_regions": 234,
+      "tiles_placed": 373,
+      "records": 377,
+      "seed": 23,
+      "drop": 0.0,
+      "seconds": 3.58,
+      "seam_models": [
+        {
+          "calibration": "1128 internal seams in 376 records of this evidence, axis horizontal",
+          "positives": 1128,
+          "negatives": 850,
+          "tpr_llr_ge_2": 0.4521,
+          "fpr_llr_ge_2": 0.0365,
+          "tpr_llr_ge_0": 0.9441,
+          "fpr_llr_ge_0": 0.3012
+        },
+        {
+          "calibration": "1128 internal seams in 376 records of this evidence, axis vertical",
+          "positives": 1128,
+          "negatives": 919,
+          "tpr_llr_ge_2": 0.422,
+          "fpr_llr_ge_2": 0.0501,
+          "tpr_llr_ge_0": 0.977,
+          "fpr_llr_ge_0": 0.3993
+        }
+      ]
+    }
+  ]
+}

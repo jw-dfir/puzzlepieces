@@ -1,0 +1,19 @@
+RDP Bitmap Cache Stitcher, version 1.0.0, 2026.
+This source distribution is supplied under the CeCILL 2.1 licence.
+
+The legacy 256-entry palette (palette.json) and cache-layout research are
+attributed to ANSSI-FR/bmc-tools:
+https://github.com/ANSSI-FR/bmc-tools
+Original licence: CeCILL 2.1 (included as LICENSE.txt).
+
+The application's parser, bounded decompression, assembly engine, GUI,
+process supervision, exports, audit implementation and tests were created
+for this distribution. The full upstream bmc-tools source is not bundled.
+
+Additional specification reference:
+Microsoft [MS-RDPBCGR], Interleaved RLE-Based Bitmap Compression, section 3.1.9.
+
+Dependencies (not bundled): NumPy, Pillow, SciPy, PyQt6 and optional pytest.
+They remain subject to their own respective licences. PyQt6 is offered
+under GPL/commercial terms; distributing combined executables requires
+checking those obligations independently of this source licence.
