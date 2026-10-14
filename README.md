@@ -102,7 +102,7 @@ Export the canvas, a crop, selected tiles or individual regions as PNG files. Mi
 
 Exports include SHA-256 hashes and a forensic JSON report recording source details, record offsets, placements, matching evidence, settings and warnings.
 
-Audit logs are saved automatically to `~/RDP-Stitcher-Audits`. Their hash chain can detect alterations or interior deletions, but cannot prevent complete rewriting or trailing truncation. Preserve a separately trusted copy or hash when using the output as evidence.
+Audit logs are saved automatically to `~/RDP-Stitcher-Audits`. 
 
 ## Attribution and licensing
 
