@@ -9,6 +9,24 @@ preview in **Reconstructed regions** and can be exported directly.
 
 Python 3.11+ / PyQt6 desktop application for automatic RDP bitmap cache reconstruction. Drop a directory or `.bin` / `.bmc` file onto the canvas. The application decodes, hashes, filters, deduplicates and attempts a conservative assembly automatically. Unsupported or ambiguous material remains available for review.
 
+**[Download the Windows build](../../releases/latest)** — a single `.exe`, no install or Python required.
+
+## Screenshots
+
+All screenshots below are rendered from the bundled synthetic test fixture (`synthetic.py`), not real case data.
+
+**Inferred reconstruction** — joined regions from a synthetic RDP8 cache, each one a cluster of native cached records the engine is confident about:
+
+![Inferred reconstruction overview](docs/screenshots/overview.png)
+
+**A reconstructed region with its evidence** — clicking a tile shows its provenance and the seam evidence that joined it:
+
+![Region preview and tile evidence](docs/screenshots/region-and-evidence.png)
+
+**Speculative full assembly** — after confident joins run out, it keeps joining the best remaining fits to build the largest image it can; guessed tiles are outlined in orange:
+
+![Speculative full assembly with guessed tiles outlined in orange](docs/screenshots/speculative-mode.png)
+
 ## Run
 
 Windows PowerShell:
