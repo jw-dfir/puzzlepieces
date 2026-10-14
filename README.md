@@ -1,10 +1,3 @@
-# Version 1.2.0
-
-Version 1.2 replaces the assembly engine; see `CHANGELOG.md`. The canvas opens on **Inferred reconstruction (regions)**:
-native cached records joined into regions by calibrated seam evidence and measured cache-order structure. **Contact
-sheet** and **Native cached bitmaps** remain available and are labelled as *not a reconstruction*. Every region has a
-preview in **Reconstructed regions** and can be exported directly.
-
 # Puzzle Pieces — RDP Bitmap Cache Stitcher
 
 Python 3.11+ / PyQt6 desktop application for automatic RDP bitmap cache reconstruction. Drop a directory or `.bin` / `.bmc` file onto the canvas. The application decodes, hashes, filters, deduplicates and attempts a conservative assembly automatically. Unsupported or ambiguous material remains available for review.
