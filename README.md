@@ -1,4 +1,4 @@
-# Puzzle Pieces — RDP Bitmap Cache Stitcher
+# Puzzle Pieces: RDP Bitmap Cache Stitcher
 
 Python 3.11+ / PyQt6 desktop application for automatic RDP bitmap cache reconstruction. Drop a directory or `.bin` / `.bmc` file onto the canvas. The application decodes, hashes, filters, deduplicates and attempts a conservative assembly automatically. Unsupported or ambiguous material remains available for review.
 
