@@ -16,7 +16,7 @@ All screenshots below are rendered from the bundled synthetic test fixture (`syn
 
 ![Region preview and tile evidence](docs/screenshots/region-and-evidence.png)
 
-**Speculative full assembly** — after confident joins run out, it keeps joining the best remaining fits to build the largest image it can; guessed tiles are outlined in orange:
+**Speculative full assembly** — after confident joins run out, it keeps joining the best remaining fits to build the largest image it can.
 
 ![Speculative full assembly with guessed tiles outlined in orange](docs/screenshots/speculative-mode.png)
 
