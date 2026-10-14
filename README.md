@@ -104,17 +104,6 @@ Exports include SHA-256 hashes and a forensic JSON report recording source detai
 
 Audit logs are saved automatically to `~/RDP-Stitcher-Audits`. Their hash chain can detect alterations or interior deletions, but cannot prevent complete rewriting or trailing truncation. Preserve a separately trusted copy or hash when using the output as evidence.
 
-## Testing
-
-Install the development dependencies and run the test suite:
-
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q tests
-```
-
-Tests cover parsing, reconstruction, manual corrections, exports and audit integrity. Synthetic test results do not establish accuracy on every real-world cache.
-
 ## Attribution and licensing
 
 Cache-layout research and the legacy palette are based on [ANSSI bmc-tools](https://github.com/ANSSI-FR/bmc-tools). Bitmap decompression follows [Microsoft’s RDP specification](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/b6a3f5c2-0804-4c10-9d25-a321720fd23e).
